@@ -99,7 +99,7 @@ function checkMatch(){
         alert("Gratki, znalazłeś wszystkie")
         window.location.reload();
     }
-    if(mistakes ===3){
+    if(mistakes ===10){
         window.location.reload();
     }
 }
