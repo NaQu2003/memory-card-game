@@ -1,0 +1,35 @@
+body{
+    background-color:#666;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+img{
+    height:200px;
+    margin:5px;
+    cursor:pointer;
+}
+.grid{
+    width:600px;
+    display:flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+}
+h1{
+    position: absolute;
+    top:0px;
+    color:white;
+}
+
+@media (max-width:768px){
+    .grid{
+        width:310px;
+    }
+    img{
+        height:100px;
+    }
+  
+}
